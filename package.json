@@ -1,0 +1,17 @@
+{
+    "name": "jabbascript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index2.js",
+    
+    
+    
+    "scripts": {
+        "start": "node index2.js",
+        "test": "echo \"Error: no test specified\" "
+    },
+    "author": "",
+    "license": "ISC"
+}
+
+
