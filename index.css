@@ -37,7 +37,8 @@ body {
 
 .title {
     display: flex;
-    padding-left: 95px;
+    /*margin-left: 95px;*/
+    margin-left: 55px;
     
 }
 
@@ -60,20 +61,26 @@ li {
 
 .navigation a:link {
     color:yellow;
+    /*color:rgb(241, 241, 241);*/
 }
 
 .navigation a:visited {
     color:rgb(118, 243, 201);
+
+    /*color:rgb(2, 255, 36);*/
+    /*color:rgb(241, 241, 241);*/
+    /*color:rgb(221, 221, 221);*/
 }
 
 .navigation a:active {
-    color:yellow;
+    /*color:rgb(118, 243, 201);*/
+    color: yellow;
 }
 
 .navigation li {
     display: inline-flex;
     padding: 10px;
-    margin-right: 15px;
+    margin-right: 35px;
     text-decoration: underline;
     
     
@@ -370,6 +377,14 @@ ul {
     /*padding-top: 15px;*/
     margin-bottom: 36px;
 }
+
+@media only screen and (max-width: 532px) {
+    .class3 {
+        padding-left: 1.6rem;
+        display: flex;
+        
+    }
+    }
 
 .articleAdjustments {
     font-size: 20px;
@@ -688,7 +703,8 @@ ul {
 
 .disclamer {
     text-align: center;
-    color: yellow;
+      color: yellow; 
+    /*color:rgb(118, 243, 201);*/
 }
 
 .titleForArticleArchives a:link {
@@ -1031,7 +1047,7 @@ display: none;
         
         justify-content: space-between;
         
-        height: 8.3rem;
+        height: 6.1rem;
         margin-bottom: 0.1rem;
         
     }
@@ -1288,11 +1304,11 @@ display: none;
 
 @media only screen and (max-width: 532px) {
     .title {
-        width: 30rem;
-        height: 10.5rem;
+        
+        height: 7.5rem;
       
-        padding-left: 1px;
-        width: 100%;
+      width: 23.4rem;
+        margin: auto;
         
     }
 }

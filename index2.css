@@ -3,16 +3,9 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 532px) {
-    .titleForArticle1 {
-        /*padding-left: 0.1rem;*/
-        /*margin-right: 0.1rem;*/
-        margin-right: 0.1rem;
-        margin-left: 0.1rem;
-        
-        
-    }
-}
+
+
+
 
 @media only screen and (max-width: 532px) {
     .titleForArticle4 {
@@ -28,27 +21,9 @@
     }
 }
 
-@media only screen and (max-width: 532px) {
-    .titleForArticle2 {
-        /*padding-left: 3rem;*/
-        /*padding-right: 0.1rem;*/
-        margin-right: 0.1rem;
-        margin-left: 4rem;
-        display: none;
-        /*margin-right: 0.1rem;*/
-        /*margin-left: 10rem;*/
-        /*margin-left: 0.1rem*/
-    }
-}
 
-@media only screen and (max-width: 532px) {
-    .titleForArticle3 {
-        /*padding-left: 1.6rem;*/
-        margin-right: 7.5rem;
-        margin-left: 0.1rem;
-        display: none;
-    }
-}
+
+
 
 
 .titleForArticle4 a:link {
@@ -80,36 +55,11 @@
 }
 
 
-@media only screen and (min-width: 532px) and (max-width: 768px) {
-    .titleForArticle1 {
-        
-        /*padding-left: 2.0rem;*/
-        /*padding-left: 0.1rem;*/
-        margin-right: 0.1rem;
-        margin-left: 16rem;
 
-    }
-}
 
-@media only screen and (min-width: 532px) and (max-width: 768px) {
-    .titleForArticle2 {
-        margin-left: 18.5rem;
-        /*padding-left: 7rem;*/
-        margin-right: 19.5rem;
-        /*padding-left: 0.1rem;*/
-        display: none;
-    }
-}
 
-@media only screen and (min-width: 532px) and (max-width: 768px) {
-    .titleForArticle3 {
-        /*padding-right: 0.1rem;*/
-        margin-right: 22.5rem;
-        margin-left: 0.5rem;
-        display: none;
-        /*padding-right: 13rem;*/
-    }
-}
+
+
 
 @media only screen and (max-width: 532px) {
     .video1 {
@@ -454,12 +404,7 @@
     text-decoration: none;
 }
 
-.titleForArticle2 {
-    margin-right: 50px;
-    margin-left: 120px;
-   
 
-}
 
 .titleForArticle3 a:link {
     color:black;
@@ -476,11 +421,7 @@
     text-decoration: none;
 }
 
-.titleForArticle3 {
-    margin-right: 0.1px;
-    margin-left: 87px;
-   
-}
+
 
 .titleForArticle1 a:link {
     color:black;
@@ -497,14 +438,6 @@
     text-decoration: none;
 }
 
-.titleForArticle1 {
-    margin-left: 90px;
-    color:black;
-    text-decoration: none;
-    margin-right: 50px;
-    
-    
-}
 
 .vidContainer {
     padding: 40px;
@@ -560,12 +493,6 @@
             }
             }
 
-        .sender-form-field {
-            justify-content: center;
-            display: flex;
-            
-        }
-
         .lowerLetters {
             font-size: 12px;
         }
@@ -614,4 +541,16 @@
             color: white;
             padding-top: 80px;
             margin-bottom: 80px;
+        }
+
+
+        .bulletPoints {
+            font-size: 20px;
+            margin-left: 190px;
+            margin-right: 190px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            
+            
+        
         }
